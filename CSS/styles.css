@@ -132,6 +132,10 @@ ul.skills {
   background: #0399ff;
 }
 
+.skills li:hover{
+  transform: scale(1.1);
+}
+
 
 
 footer {
@@ -139,6 +143,7 @@ footer {
   min-height: 30px;
   padding: 20px 0 40px 20px;
   border-top: solid black 10px;
+  border-right: solid black 10px;
 }
 
 footer .copyright {
