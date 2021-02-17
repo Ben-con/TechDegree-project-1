@@ -81,14 +81,14 @@ header .profile-image:hover {
  padding-bottom: 10px;
  background:red;
   color: lightseagreen;
-  border-top: red solid 2px; 
   font-size: 50px;
+  
 }
 
 .second-header{
  background-image: none;
  background-color: black;
- background-size: contain;
+ min-height: auto;
  
 }
 
@@ -193,13 +193,11 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(../images/twitter.svg);
 }
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
