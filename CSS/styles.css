@@ -77,20 +77,23 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .experience{
-  
+ padding-top: 10px;
+ padding-bottom: 10px;
  background:red;
   color: lightseagreen;
-  padding-top:10%;
-  border-top: red solid 2px;
-  padding-bottom: 10px; 
+  border-top: red solid 2px; 
+  font-size: 50px;
 }
 
-.title{
-  margin-top: -50px;
-  font-size: 100px;
-  border: cornflowerblue 10px solid;
-  background:green ;
+.second-header{
+ background-image: none;
+ background-color: black;
+ background-size: contain;
+ 
 }
+
+
+
 
 .tag {
   background-color: #efefef;
